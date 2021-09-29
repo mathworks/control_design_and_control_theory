@@ -13,16 +13,101 @@
    -  Control System Toolbox™ 
    -  Simulink Control Design™ 
 
-# コンテンツの使い方
-### 1. プロジェクトを起動する
+# コンテンツの使い方（オンライン）
 
 
-最初に、「Control_Design_and_Theory.prj」ファイルをダブルクリックして起動する。
+※この方法で起動すると、ローカルPCにMATLABをインストールせずにコンテンツを読むことができる。
+
+
+### 1. クローン用のリンクをコピーする
+
+
+以下のWebリンクをコピーする。
+
+
+
+
+https://github.com/mathworks/control_design_and_control_theory.git
+
+
+### 2. MATLAB Onlineを起動する
+
+
+オンラインを使用可能なライセンスを持っている場合は、以下からMATLAB Online を起動できる。
+
+
+
+
+[MATLAB (mathworks.com)](https://matlab.mathworks.com/)
+
+
+### 3. Git からクローンする
+
+
+以下のように、「ホーム」タブの「新規」「Git から」をクリックする。
 
 
 
 
 ![image_0.png](ReadMe_images/image_0.png)
+
+
+
+
+URLに1.でコピーしたリンクを貼り付け、フォルダーの場所には以下のように記入する。
+
+
+
+
+記入後、「クローン」をクリックする。
+
+
+
+
+![image_1.png](ReadMe_images/image_1.png)
+
+
+
+
+クローンが実行され、完了後は以下のようにファイル、フォルダが生成される。
+
+
+
+
+![image_2.png](ReadMe_images/image_2.png)
+
+
+### 4. プロジェクトを実行する
+
+
+「Control_Design_and_Theory.prj」を実行する。
+
+
+
+
+目次ファイル「control_workflow_index.mlx」が起動する。この資料を読み進め、リンク先のファイルを開いて読み、モデル実行していく。
+
+
+
+
+![image_3.png](ReadMe_images/image_3.png)
+
+
+# コンテンツの使い方（ローカルPC）
+### 1. プロジェクトを起動する
+
+
+MATLABを起動し、現在のフォルダーに「Control_Design_and_Theory.prj」ファイルが存在するフォルダーを指定する。
+
+
+
+
+「Control_Design_and_Theory.prj」をダブルクリックして起動する。
+
+
+
+
+![image_4.png](ReadMe_images/image_4.png)
 
 
 ### 2. 目次ファイルを読み進める
@@ -50,7 +135,7 @@
 
 
 
-![image_1.png](ReadMe_images/image_1.png)
+![image_5.png](ReadMe_images/image_5.png)
 
 
 

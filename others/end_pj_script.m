@@ -3,13 +3,16 @@ clear functions;
 proj = currentProject;
 
 %% delete temporary files
-cd('./cache');
+cd(proj.RootFolder + filesep + "cache");
 delete('*.*');
 try
     rmdir('*','s');
 catch
     % Do Nothing
 end
+
+create_text_file(pwd, 'readme_cache.txt', ...
+    'This folder is for temporary files.');
 
 %% Terminate
 cd(proj.RootFolder);
