@@ -164,6 +164,31 @@ disp(1);
      1
 ```
 
+# 目次
+
+
+コンテンツの目次について、以下に記載する。
+
+
+
+   -  はじめに 
+   -  UAVのホバリング Part 1: PID制御とは 
+   -  UAVのホバリング Part 2: 積分器、微分器の拡張 
+   -  UAVのホバリング Part 3: ゲインチューニング 
+   -  離散化とマイコン実装について 
+   -  PID設計のガイド 
+
+# Note
+
+
+This content is useful for self-learning of control design. You can learn practical control design method and control theory in a short time. This content is made of live scripts and Simulink models. Thus, you can easily run and check the control algorithms.
+
+
+
+
+For now, this content is Japanese only. 
+
+
   
 
 
