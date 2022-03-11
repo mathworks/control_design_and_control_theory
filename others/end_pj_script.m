@@ -4,15 +4,18 @@ proj = currentProject;
 
 %% delete temporary files
 cd(proj.RootFolder + filesep + "cache");
-delete('*.*');
 try
     rmdir('*','s');
 catch
     % Do Nothing
 end
 
-create_text_file(pwd, 'readme_cache.txt', ...
-    'This folder is for temporary files.');
+list = dir;
+for i = 1:numel(list)
+    if ~strcmp(list(i).name, 'readme_cache.txt')
+        delete(list(i).name);
+    end
+end
 
 %% Terminate
 cd(proj.RootFolder);
